@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Pt->Px</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div id="content">
+		
+		<div id="Titulo">Points To Pixels</div>
+		
+		<div id="Menu">
+			<div class="Tab selected" id="TabPT">Pt->Px</div>
+			<div class="Tab" id="TabPX">Px->Pt</div>
+		</div>
+
+		<div id="pttopx">
+			<input type="text" name="" id="Pt2Px_Pt" placeholder="Points(Pt)" class="Form"> 
+			<input type="button" class="ButtonConvert" id="BTPtPx" value="Convert" onclick="PtPx();"></input>
+			<div id="ResultadoPx"></div>
+		</div>
+
+		<div id="pxtopt">
+			<input type="text" name="" id="Px2Pt_Px" placeholder="Pixels(Px)" class="Form">
+			<input type="button" class="ButtonConvert" id="BTPxPt" value="Convert" onclick="PxPt();"></input>
+			<div id="ResultadoPt"></div>
+		</div>
+
+		<div id="FormulaActive">Formula</div>
+		<div id="FormulaContent">
+			
+			Pixels = Points * 96 / 72<br /><br />
+
+			Points = Pixels * 72 / 96
+
+
+		</div>
+	</div>
+
+	<div id="Credits">Guaxinim Games | <a href="https://twitter.com/falme73h">Falme Streamless</a></div>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
