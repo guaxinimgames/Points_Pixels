@@ -4,6 +4,9 @@
 @font-face {
   font-family: EHSMB;
   src: url("../fonts/EHSMB.TTF"); }
+@font-face {
+  font-family: Wolf;
+  src: url("../fonts/WolfintheCity.otf"); }
 * {
   box-sizing: border-box; }
 
@@ -25,7 +28,8 @@ html body {
       height: 100px;
       width: 100%;
       font-size: 60px;
-      padding-top: 20px; }
+      padding-top: 20px; 
+      font-family: Wolf;}
       html body #content #Titulo #T1 {
         font-family: DottedCharlie; }
       html body #content #Titulo #T2 {
