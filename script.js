@@ -5,7 +5,8 @@ document.getElementById('TabPT').onclick = function(){
 	document.getElementById('TabPX').className="Tab";
 	document.getElementById('pttopx').style.display="block";
 	document.getElementById('pxtopt').style.display="none";
-	document.getElementById('Titulo').innerHTML="Points to Pixels";
+	document.getElementById('T1').innerHTML="Points";
+	document.getElementById('T2').innerHTML="<div id='T3'>To</div>Pixels";
 	document.title = "Pt->Px"
 }
 
@@ -14,7 +15,8 @@ document.getElementById('TabPX').onclick = function(){
 	document.getElementById('TabPX').className="Tab selected";
 	document.getElementById('pttopx').style.display="none";
 	document.getElementById('pxtopt').style.display="block";
-	document.getElementById('Titulo').innerHTML="Pixels to Points";
+	document.getElementById('T2').innerHTML="<div id='T3'>To</div>Points";
+	document.getElementById('T1').innerHTML="Pixels";
 	document.title = "Px->Pt"
 }
 
